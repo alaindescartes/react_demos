@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid blue;
+  width: fit-content;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  margin: 3rem 1rem;
+}
+
+.container h1 {
+  text-decoration: underline;
+}
