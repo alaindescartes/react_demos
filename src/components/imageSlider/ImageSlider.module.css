@@ -1,0 +1,63 @@
+/* Slider container styles */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust based on your needs */
+  margin: 5rem auto;
+}
+
+/* Arrow styles */
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  margin-right: 70px;
+  transform: translateY(-50%);
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; /* Padding on sides for arrow spacing */
+}
+
+.arrow .icon {
+  font-size: 40px;
+  color: white;
+}
+
+.arrow .icon:hover {
+  outline: 0.5rem solid white;
+  border-radius: 50%;
+}
+
+.arrow button {
+  background-color: transparent;
+  border: none;
+}
+
+/* Image styles */
+.img {
+  width: 100%;
+  display: block; /* Remove any extra space below the image */
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.statusBar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: #242222; /* Darker dot for the active image */
+}

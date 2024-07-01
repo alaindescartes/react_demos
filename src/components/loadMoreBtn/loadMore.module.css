@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 12px;
+  margin: 3rem 0.5rem;
+  background-color: lightgray;
+  padding: 2rem 1rem;
+}
+
+.container .facts {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.container button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 900;
+  background-color: black;
+  color: white;
+}
